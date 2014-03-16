@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WTStatusBar"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "iPhone/iPad status bar with text (and optionally Foursquare-like progress bar) display."
 
   s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = 'Alex Skalozub'
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "https://github.com/huuhoa/WTStatusBar.git", :tag => 'v0.0.2' }
+  s.source       = { :git => "https://github.com/huuhoa/WTStatusBar.git", :tag => 'v0.0.3' }
   s.source_files  = 'WTStatusBar/WTStatusBar/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
   s.requires_arc  = true
