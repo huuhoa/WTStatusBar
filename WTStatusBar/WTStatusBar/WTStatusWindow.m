@@ -59,7 +59,7 @@
     
     self.frame = screenRect;
     self.backgroundColor = [UIColor clearColor];
-    self.windowLevel = UIWindowLevelStatusBar;
+    self.windowLevel = UIWindowLevelStatusBar + 10;
     self.userInteractionEnabled = NO;
     self.autoresizesSubviews = YES;
     
