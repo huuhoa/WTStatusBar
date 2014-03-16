@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author       = 'Alex Skalozub'
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/huuhoa/WTStatusBar.git", :tag => s.version.to_s }
-  s.source_files  = 'WTStatusBar/WTStatusBar/**/*.{h,m}'
+  s.source_files  = 'WTStatusBar/**/*.{h,m}'
   s.requires_arc  = true
 end
