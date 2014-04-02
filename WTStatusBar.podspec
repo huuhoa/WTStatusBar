@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WTStatusBar"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "iPhone/iPad status bar with text (and optionally Foursquare-like progress bar) display."
   s.homepage     = "https://github.com/huuhoa/WTStatusBar"
   s.screenshots  = "https://github.com/huuhoa/WTStatusBar/raw/master/screenshot.png"
