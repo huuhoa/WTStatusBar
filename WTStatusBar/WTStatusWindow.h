@@ -27,6 +27,7 @@
 }
 
 - (WTStatusView*)statusView;
+- (void)verifyStatusViewLayout;
 
 @property (nonatomic, assign) NSInteger iteration;
 

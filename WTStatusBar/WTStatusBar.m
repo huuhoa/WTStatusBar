@@ -158,6 +158,7 @@ static UIColor* _progressBarColor = nil;
     [statusWindow.statusView setProgressBarColor:_progressBarColor];
     [statusWindow.statusView setStatusText:text];
     [statusWindow.statusView setProgress:0.0];
+    [statusWindow verifyStatusViewLayout];
     
     if (animated)
     {

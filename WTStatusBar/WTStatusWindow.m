@@ -87,6 +87,10 @@
 
 - (void)didRotate:(NSNotification*)notification
 {
+    [self relayoutStatusView];
+}
+
+- (void)relayoutStatusView {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
     
     [self setTransform:[self transformForOrientation:orientation]];
@@ -105,6 +109,13 @@
     }
     
     [self.statusView setNeedsLayout];
+}
+
+- (void)verifyStatusViewLayout {
+    CGRect frame = _statusView.frame;
+    if (CGRectEqualToRect(_statusView.frame, CGRectZero)) {
+        [self relayoutStatusView];
+    }
 }
 
 #define DegreesToRadians(degrees) (degrees * M_PI / 180)
